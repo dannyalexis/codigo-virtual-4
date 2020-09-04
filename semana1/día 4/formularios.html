@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label for="inputNombre">Nombre completo</label>
+                </td>
+                <td>
+                    <input type="text" id="inputNombre" placeholder="ingrese nombre completo" required >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="inputEdad">Edad</label>
+                </td>
+                <td>
+                    <input type="number" id="inputEdad" placeholder="ingrese edad" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="inputFecha">Fecha Nacimiento : </label>
+                </td>
+                <td>
+                    <input type="date" id="inputFecha">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="inputColor">Color</label>
+                </td>
+                <td>
+                    <input type="color" name="" id="inputColor">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Genero</label>
+                </td>
+                <td>
+                    <label for="inputRadioM">Masculino</label>
+                    <input type="radio" id="inputRadioM" name="genero">
+
+                    <label for="inputRadioF">Femenino</label>
+                    <input type="radio" id="inputRadioF" name="genero">
+
+                    <label for="inputRadioO">Otro</label>
+                    <input type="radio" id="inputRadioO" name="genero">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Idiomas</label>
+                </td>
+                <td>
+                    <label for="checkIngles">Ingles</label>
+                    <input type="checkbox" id="checkIngles" checked>
+
+                    <label for="checkEspañol">Español</label>
+                    <input type="checkbox" id="checkEspañol">
+
+                    <label for="checkPortugues">Portugues</label>
+                    <input type="checkbox" id="checkPortugues">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Email : </label>
+                </td>
+                <td>
+                    <input type="email" value="@gmail.com" placeholder="Ingrese su Email" id="inputEmail">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Password</label>
+                </td>
+                <td>
+                    <input type="password" id="inputPassword">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="txtAreaComentario">Comentarios</label>
+                </td>
+                <td>
+                    <textarea name="" id="txtAreaComentario" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="slcdepartamentos">Seleccione su departamento</label>
+                </td>
+                <td>
+                    <select id="slcdepartamentos">
+                        <option >Seleccione departamento</option>
+                        <option >Lima</option>
+                        <option >Cusco</option>
+                        <option >Tacna</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="inputFileSubirArchivo">Subir Archivo</label>
+                </td>
+                <td>
+                    <input type="file" id="inputFileSubirArchivo">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Acciones</label>
+                </td>
+                <td>
+                    <input type="submit" value="Registrar">
+                    <input type="reset" value="Limpiar Formulario">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
