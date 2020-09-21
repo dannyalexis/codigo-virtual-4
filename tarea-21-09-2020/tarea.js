@@ -76,15 +76,40 @@ let ahorrado = ((sueldo*48)*0.15);
 
 console.log("Usted tiene ahorrado en un año : " + ahorrado + " soles");
 
+
+
+19
+
+let lado = +prompt("Ingresar lado del cuadrado : ");
+let area = lado*lado;
+
+console.log("Area de un cuadrado : " + area + "m2");
+
+
+20
+
+let primerExamen = +prompt(" Ingrese la calificación del primer examen: ");
+let segundoExamen = +prompt(" Ingrese la calificación del segundo examen: ");
+let tercerExamen = +prompt(" Ingrese la calificación del tercer examen: ")
+let promedio = ((primerExamen*0.25) + (segundoExamen*0.25)+ (tercerExamen*0.5));
+
+console.log("Su promedio es  : " + promedio);
+
+
+21
+
+let edad = +prompt(" Ingrese su edad actual: ");
+
+let meses=edad*12;
+let semanas=edad*52;
+let dias=edad*365;
+let horas=8760;
+
+
+console.log("Edad en meses  : " + meses);
+console.log("Edad en semanas  : " + semanas);
+console.log("Edad en dias  : " + dias);
+console.log("Edad en horas  : " + horas);
+
 */
-Una empresa desea determinar el monto de un cheque que debe
-proporcionar a uno de sus empleados que tendrá que ir por equis
-número de días a la ciudad de Monterrey; los gastos que cubre la
-empresa son: hotel, comida y 100.00 pesos diarios para otros gastos. 
-El monto debe estar desglosado para cada concepto. Realice un
-diagrama de flujo y pseudocódigo que representen el algoritmo
-que determine el monto del cheque.
 
-
-let diasTrabajo = +prompt("Ingresar sueldo semanal: ");
-let hotel 
