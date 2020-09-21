@@ -1,0 +1,24 @@
+
+li:nth-child(2){
+    color:blue;
+
+}
+li:first-child{
+    color: red;
+}
+li:last-child{
+    color:salmon;
+}
+
+tbody tr:nth-child(odd){
+    background:purple;
+}
+tbody tr:nth-child(even){
+    background: red;
+}
+thead{
+    background:seagreen;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}

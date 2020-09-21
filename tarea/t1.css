@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+  }
+
+.formulario{
+    border: 2px solid #530780;
+    width: 400px;
+    height: 500px;
+    margin: 20px auto;
+    padding: 50px;
+}
+
+.titulo{
+    color: #530780;
+    margin: 10px;
+}
+.titulo__parrafo{
+    font-family: black  ;
+}
+.email{
+    color: #530780;
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+
+.password{
+    color: #530780;
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+.caja{
+    width: 80%;
+    padding: 10px 5px;
+    border: none;
+    outline: none;
+    background-color: #d2c2db;
+    border-left: 4px solid #7a3c9e;
+    border-radius: 3px;
+
+}
+
+.recuperar{
+    margin-top: 20px;
+    
+
+}
+.recuperar label{
+    margin-right: 10px;
+    font-size: 15px;
+}
+.recuperar a{
+    color: #530780;
+    margin-left: 10px;
+    font-size: 15px;
+}
+button{
+    border:none;
+    margin-top:30px;  
+    padding: 15px 38px;
+    color: white;
+    background-color: #530780;  
+    border-radius: 3px;
+}
